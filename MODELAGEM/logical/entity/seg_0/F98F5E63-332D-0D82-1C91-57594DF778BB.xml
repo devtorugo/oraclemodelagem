@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F98F5E63-332D-0D82-1C91-57594DF778BB" name="funcionarios">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:06:17 UTC</createdTime>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<engineerTo>
+<item key="CAC4E428-64A0-E151-62A8-074249D9612A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="05F5AD99-EB9D-0C95-AD5B-FB84031A8A5E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:06:45 UTC</createdTime>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<engineerTo>
+<item key="CAC4E428-64A0-E151-62A8-074249D9612A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME" id="77BDE3AA-94D6-9178-008E-E612673B0783">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:07:45 UTC</createdTime>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<engineerTo>
+<item key="CAC4E428-64A0-E151-62A8-074249D9612A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CARGO" id="D7B3EE51-4A3E-EBA3-D366-47AF6B08FE40">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:08:27 UTC</createdTime>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<engineerTo>
+<item key="CAC4E428-64A0-E151-62A8-074249D9612A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SALARIO" id="ABD1418B-7107-C2DC-B0AA-ED179EA2412A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:09:50 UTC</createdTime>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<engineerTo>
+<item key="CAC4E428-64A0-E151-62A8-074249D9612A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
