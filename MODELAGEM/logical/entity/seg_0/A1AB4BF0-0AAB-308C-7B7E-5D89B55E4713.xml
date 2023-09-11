@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A1AB4BF0-0AAB-308C-7B7E-5D89B55E4713" name="FORNECEDOR">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:16:59 UTC</createdTime>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<engineerTo>
+<item key="CAC4E428-64A0-E151-62A8-074249D9612A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TELEFONE" id="74C0D953-ED37-5BCD-9A30-EB6E5C51D18C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:17:09 UTC</createdTime>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<engineerTo>
+<item key="CAC4E428-64A0-E151-62A8-074249D9612A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="5FC3C2A8-E96D-FE44-8E14-F6DC905F45C8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:17:43 UTC</createdTime>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<engineerTo>
+<item key="CAC4E428-64A0-E151-62A8-074249D9612A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ENDERECO" id="FF2F1E80-07E8-14F7-364F-22B02EBFDF71">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:18:05 UTC</createdTime>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<engineerTo>
+<item key="CAC4E428-64A0-E151-62A8-074249D9612A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

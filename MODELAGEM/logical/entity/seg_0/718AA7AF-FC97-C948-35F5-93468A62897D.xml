@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="718AA7AF-FC97-C948-35F5-93468A62897D" name="Clientes">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 11:21:13 UTC</createdTime>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<engineerTo>
+<item key="CAC4E428-64A0-E151-62A8-074249D9612A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="365AC36F-72F1-4E7D-6055-8A47C891A9D3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 11:21:41 UTC</createdTime>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<engineerTo>
+<item key="CAC4E428-64A0-E151-62A8-074249D9612A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME" id="7D64F776-5C74-B029-78C2-64F016B29070">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 11:22:57 UTC</createdTime>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<engineerTo>
+<item key="CAC4E428-64A0-E151-62A8-074249D9612A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ENDERECO" id="493889E2-EF58-8166-6795-09D586C36716">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 11:24:29 UTC</createdTime>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<engineerTo>
+<item key="CAC4E428-64A0-E151-62A8-074249D9612A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONE" id="D6BA5259-6179-7FDA-2F15-26ED780B12A7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 11:26:02 UTC</createdTime>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<engineerTo>
+<item key="CAC4E428-64A0-E151-62A8-074249D9612A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="900FA5F9-0FB5-7C74-2567-0380F8E9904A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 11:26:45 UTC</createdTime>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<engineerTo>
+<item key="CAC4E428-64A0-E151-62A8-074249D9612A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPF" id="B830F6D2-DF6C-1342-B682-0F5EFEFEA567">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 11:27:36 UTC</createdTime>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<engineerTo>
+<item key="CAC4E428-64A0-E151-62A8-074249D9612A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Attribute_" id="EF3FACEF-054B-3449-8B5E-BB4AB443B5D0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:02:43 UTC</createdTime>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<engineerTo>
+<item key="CAC4E428-64A0-E151-62A8-074249D9612A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CF8A0EDF-263E-68BF-1791-3FD9626A7A5D" name="Clientes PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 11:22:22 UTC</createdTime>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<engineerTo>
+<item key="CAC4E428-64A0-E151-62A8-074249D9612A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>365AC36F-72F1-4E7D-6055-8A47C891A9D3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
