@@ -54,16 +54,5 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="K" id="9E979011-6F78-8BF4-C836-CCACA56EDEA0">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 12:26:49 UTC</createdTime>
-<ownerDesignName>MODELAGEM</ownerDesignName>
-<engineerTo>
-<item key="CAC4E428-64A0-E151-62A8-074249D9612A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 </Entity>
